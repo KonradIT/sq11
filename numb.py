@@ -4,7 +4,7 @@ debug=True
 print_for_x=True
 i = 1
 while str(i**2)[-2:] != '11':
-	x = str(i**2)[:-2]
+	x = str(i**2)[-2:]
 	if debug == True:
 		print("i int: " + str(i))
 	if print_for_x == True:    
